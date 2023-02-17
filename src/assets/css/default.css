@@ -726,7 +726,7 @@
 text-align: right;
 }
 a {
-    text-decoration: none;
+    text-decoration:underline;
 }
 /*********************** Demo - 20 *******************/
 .box20{position:relative}

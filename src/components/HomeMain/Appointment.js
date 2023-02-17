@@ -21,7 +21,7 @@ const Appointment = () => {
               <div className="contact-bg">
                 <div className="section-title center-align">
                   <h5>Get In Touch</h5>
-                  <h2>Request an Appointment</h2>
+                  <h2 style={{color:"black"}}>Request an Appointment</h2>
                   <p>
                     Aenean ut enim vel lectus rutrum sodales. Aliquam consequat
                     augue eget enim convallis, at maximus libero ullamcorper.
@@ -114,10 +114,10 @@ const Appointment = () => {
                 <div className="open-img">
                   <img src={Img} alt="icon01" />
                 </div>
-                <h2>3150 W.Ward Rd</h2>
-                <h2>Suite 304</h2>
-                <h2>Dunkirk, MD 20754</h2>
-                <h3>Opening Hours</h3>
+                <h2 style={{color:"black"}}>3150 W.Ward Rd</h2>
+                <h2 style={{color:"black"}}>Suite 304</h2>
+                <h2 style={{color:"black"}}>Dunkirk, MD 20754</h2>
+                <h3 style={{color:"black"}}>Opening Hours</h3>
                 <div className="text">
                   <div className="left-text">Monday to Friday:</div>
                   <div className="right-text">09:00 am – 10:00 pm</div>
