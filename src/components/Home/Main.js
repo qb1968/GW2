@@ -32,13 +32,13 @@ const Main = () => {
                   <div className="col-lg-8 col-md-8">
                     <div className="slider-content s-slider-content mt-20">
                      
-                      <h2 style={{color:"#CAB171"}} data-animation="fadeInUp" data-delay=".4s">
+                      <h2 style={{color:"black"}} data-animation="fadeInUp" data-delay=".4s">
                         Gentle Wellness
                         <br />
                         Medi-Spa
                       </h2>
 
-                      <p data-animation="fadeInUp" data-delay=".6s">
+                      <p style={{color:"black"}} data-animation="fadeInUp" data-delay=".6s">
                       At Gentle Wellness our mission is to provide a world class spa experience while providing personalized services to each client and enhance their natural beauty. We strive to build rewarding relationships with our clients and community, through knowledge, wellness, and superior service.
 
  

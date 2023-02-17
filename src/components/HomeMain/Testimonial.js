@@ -60,7 +60,7 @@ const Testimonial = () => {
                 data-animation="fadeInDown"
                 data-delay=".4s"
               >
-                <h5>Testimonials</h5>
+                <h5 style={{color:"black"}}>Testimonials</h5>
                 
                 <p className="mt-15">
                   At Gentle Wellnes don't take our word for it. Listen to what our clients have to say.
@@ -74,7 +74,7 @@ const Testimonial = () => {
                     <img src={Img1} alt="img" />
                     <div className="ta-info">
                       <h6>Jina Nilson</h6>
-                      <span>Client</span>
+                      <span style={{color:"black"}}>Client</span>
                     </div>
                   </div>
                   <p>
@@ -92,7 +92,7 @@ const Testimonial = () => {
                     <img src={Img2} alt="img" />
                     <div className="ta-info">
                       <h6>Braitly Dcosta</h6>
-                      <span>Client</span>
+                      <span style={{color:"black"}}>Client</span>
                     </div>
                   </div>
                   <p>
@@ -110,7 +110,7 @@ const Testimonial = () => {
                     <img src={Img1} alt="img" />
                     <div className="ta-info">
                       <h6>Jina Nilson</h6>
-                      <span>Client</span>
+                      <span style={{color:"black"}}>Client</span>
                     </div>
                   </div>
                   <p>
@@ -128,7 +128,7 @@ const Testimonial = () => {
                     <img src={Img2} alt="img" />
                     <div className="ta-info">
                       <h6>Braitly Dcosta</h6>
-                      <span>Client</span>
+                      <span style={{color:"black"}}>Client</span>
                     </div>
                   </div>
                   <p>

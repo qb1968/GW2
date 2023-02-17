@@ -26,78 +26,14 @@ const Main = () => {
               <div className="single-team mb-45">
                 <div className="team-thumb">
                   <div className="brd">
-                    <img src={Team1} />
-                  </div>
-                </div>
-                <div className="team-info">
-                  <h4>
-                    <Link to="/team-details">Bableo Dablo</Link>
-                  </h4>
-                  <p>Worker</p>
-                 
-                </div>
-              </div>
-            </div>
-            <div className="col-xl-4">
-              <div className="single-team mb-45">
-                <div className="team-thumb">
-                  <div className="brd">
-                    <img src={Team2} />
-                  </div>
-                </div>
-                <div className="team-info">
-                  <h4>
-                    <Link to="/team-details">Dawon Crisen</Link>
-                  </h4>
-                  <p>Worker</p>
-                 
-                </div>
-              </div>
-            </div>
-            <div className="col-xl-4">
-              <div className="single-team mb-45">
-                <div className="team-thumb">
-                  <div className="brd">
                     <img src={Team3} />
                   </div>
                 </div>
                 <div className="team-info">
                   <h4>
-                    <Link to="/team-details">David Suarez</Link>
+                    <Link to="">Dr.Sclater</Link>
                   </h4>
-                  <p>Worker</p>
-                 
-                </div>
-              </div>
-            </div>
-            <div className="col-xl-4">
-              <div className="single-team mb-45">
-                <div className="team-thumb">
-                  <div className="brd">
-                    <img src={Team4} />
-                  </div>
-                </div>
-                <div className="team-info">
-                  <h4>
-                    <Link to="/team-details">Gerard Peano</Link>
-                  </h4>
-                  <p>Worker</p>
-                 
-                </div>
-              </div>
-            </div>
-            <div className="col-xl-4">
-              <div className="single-team mb-45">
-                <div className="team-thumb">
-                  <div className="brd">
-                    <img src={Team5} alt="img" />
-                  </div>
-                </div>
-                <div className="team-info">
-                  <h4>
-                    <Link to="/team-details">Ostin Green</Link>
-                  </h4>
-                  <p>Worker</p>
+                  
                  
                 </div>
               </div>
@@ -111,9 +47,73 @@ const Main = () => {
                 </div>
                 <div className="team-info">
                   <h4>
-                    <Link to="/team-details">Norman Colins</Link>
+                    <Link to="">Melissa</Link>
                   </h4>
-                  <p>Worker</p>
+                  <p>Office Manager</p>
+                 
+                </div>
+              </div>
+            </div>
+            <div className="col-xl-4">
+              <div className="single-team mb-45">
+                <div className="team-thumb">
+                  <div className="brd">
+                    <img src={Team1} />
+                  </div>
+                </div>
+                <div className="team-info">
+                  <h4>
+                    <Link to="">Melinda</Link>
+                  </h4>
+                  <p>Esthetician</p>
+                 
+                </div>
+              </div>
+            </div>
+            <div className="col-xl-4">
+              <div className="single-team mb-45">
+                <div className="team-thumb">
+                  <div className="brd">
+                    <img src={Team2} />
+                  </div>
+                </div>
+                <div className="team-info">
+                  <h4>
+                    <Link to="">Maddy</Link>
+                  </h4>
+                  <p>Eyelash Tech</p>
+                 
+                </div>
+              </div>
+            </div>
+            <div className="col-xl-4">
+              {/* <div className="single-team mb-45"> */}
+                <div className="team-thumb">
+                  <div className="brd">
+                    {/* <img src={Team5} alt="img" /> */}
+                  </div>
+                {/* </div>
+                <div className="team-info">
+                  <h4>
+                    <Link to="">Ostin Green</Link>
+                  </h4>
+                  <p>Worker</p> */}
+                 
+                </div>
+              </div>
+            {/* </div> */}
+            <div className="col-xl-4">
+              <div className="single-team mb-45">
+                <div className="team-thumb">
+                  <div className="brd">
+                    <img src={Team4} />
+                  </div>
+                </div>
+                <div className="team-info">
+                  <h4>
+                    <Link to="">Jessica</Link>
+                  </h4>
+                  <p>Microblading Tech</p>
                  
                 </div>
               </div>

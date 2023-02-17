@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import React, { useState } from "react";
-import Img1 from "../../assets/img/brand/gwms.jpg";
+import Img1 from "../../assets/img/logo/gentle-wellness-logo (2).png";
 import BGImg from "../../assets/img/bg/marblebg.jpg"
 
 const Main = () => {
@@ -25,7 +25,7 @@ const Main = () => {
                   <div className="logo">
                     <Link to="/">
                       <img
-                        style={{ width:100, height: 100 }}
+                        style={{width:"100%"}}
                         src={Img1}
                         alt="logo"
                       />
@@ -212,7 +212,7 @@ const Main = () => {
                             </li>
                             <li className="has-sub">
                               <Link
-                                to="#"
+                                to="/contact"
                                 className={`mean-expand ${
                                   show3 && "mean-clicked"
                                 }`}

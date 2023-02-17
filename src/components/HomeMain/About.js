@@ -37,8 +37,8 @@ const About = () => {
                 data-delay=".4s"
               >
                 <div className="about-title second-title pb-25">
-                  <h5>About Us</h5>
-                  <h2>Best Way To Care For Your Body and Skin</h2>
+                  
+                  <h2>Building your natural beauty</h2>
                 </div>
                 <p>
                   Suspendisse et porttitor leo. Sed porttitor dui sit amet

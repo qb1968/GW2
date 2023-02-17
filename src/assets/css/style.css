@@ -144,7 +144,7 @@ button {
 	outline: medium none;
 }
 a:hover {
-    color: #ff4f9d;
+    color: black;
 }
 .box20 .title a{
     color: #fff;
@@ -286,13 +286,13 @@ label {
 	position: relative;
     z-index: 999;
     text-transform: uppercase;
-    background: #CAB171;
+    background: #f8f9fa;
     border: none;
 }
 
 .btn:hover{
-    background: white;
-    color: #fff;
+    background: grey;
+    color: #584646;
 }
 .btn:hover::before{opacity: 0;}
 .btn::before {
