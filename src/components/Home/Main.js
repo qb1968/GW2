@@ -29,7 +29,7 @@ const Main = () => {
             >
               <div className="container">
                 <div className="row justify-content-center align-items-center">
-                  <div className="col-lg-6 col-md-6">
+                  <div className="col-lg-8 col-md-8">
                     <div className="slider-content s-slider-content mt-20">
                      
                       <h2 style={{color:"#CAB171"}} data-animation="fadeInUp" data-delay=".4s">
