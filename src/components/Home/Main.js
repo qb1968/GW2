@@ -11,10 +11,12 @@ import Pricing from "../HomeMain/Pricing";
 import Feature from "../HomeMain/Feature";
 import Product from "../HomeMain/Product";
 import Img10 from "../../assets/img/brand/Product-Shot.jpg";
+import Bredcrumb from "../HomeMain/Bredcrumb";
 
 const Main = () => {
   return (
     <>
+    <Bredcrumb/>
       <main>
         <section id="home" className="slider-area fix p-relative">
           <div className="slider-active" style={{ background: "#00173c" }}>
@@ -29,23 +31,17 @@ const Main = () => {
                 <div className="row justify-content-center align-items-center">
                   <div className="col-lg-6 col-md-6">
                     <div className="slider-content s-slider-content mt-20">
-                      <h5
-                        style={{ fontSize: 22 }}
-                        data-animation="fadeInUp"
-                        data-delay=".4s"
-                      >
-                        Gentle Wellness Medi-Spa{" "}
-                      </h5>
-                      <h2 data-animation="fadeInUp" data-delay=".4s">
-                        Make Your Body
+                     
+                      <h2 style={{color:"#CAB171"}} data-animation="fadeInUp" data-delay=".4s">
+                        Gentle Wellness
                         <br />
-                        Whole Again
+                        Medi-Spa
                       </h2>
 
                       <p data-animation="fadeInUp" data-delay=".6s">
-                        Donec vitae libero non enim placerat eleifend aliquam
-                        erat volutpat. Curabitur diam ex, dapibus purus sapien,
-                        cursus sed nisl tristique.
+                      At Gentle Wellness our mission is to provide a world class spa experience while providing personalized services to each client and enhance their natural beauty. We strive to build rewarding relationships with our clients and community, through knowledge, wellness, and superior service.
+
+ 
                       </p>
                     </div>
                     <img

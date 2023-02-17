@@ -24,10 +24,7 @@ const Main = () => {
                   </div>
                   <div className="footer-link">
                     <p style={{ color: "black" }}>
-                      Mauris non nisi semper, lacinia neque in, dapibus leo.
-                      Curabitur sagittis libero tincidunt tempor finibus. Mauris
-                      at dignissim ligula, nec tristique orci.Quisque vitae
-                      metus.
+                    At Gentle Wellness our mission is to provide a world class spa experience while providing personalized services to each client and enhance their natural beauty. We strive to build rewarding relationships with our clients and community, through knowledge, wellness, and superior service.
                     </p>
                   </div>
                 </div>
@@ -66,22 +63,22 @@ const Main = () => {
                   <div className="footer-link">
                     <ul>
                       <li>
-                        <Link to="#"> Emsculpt Neo</Link>
+                        <Link to="service-details"> Emsculpt Neo</Link>
                       </li>
                       <li>
-                        <Link to="#">Emsella</Link>
+                        <Link to="service-details2">Emsella</Link>
                       </li>
                       <li>
-                        <Link to="#"> Facial Treatments</Link>
+                        <Link to="service-details3"> Facial Treatments</Link>
                       </li>
                       <li>
-                        <Link to="#">Hair Removal</Link>
+                        <Link to="service-details4">Hair Removal</Link>
                       </li>
                       <li>
-                        <Link to="#">Eyelash Extensions</Link>
+                        <Link to="service-details5">Eyelash Extensions</Link>
                       </li>
                       <li>
-                        <Link to="#">Microblading</Link>
+                        <Link to="service-details6">Microblading</Link>
                       </li>
                     </ul>
                   </div>

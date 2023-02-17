@@ -6,6 +6,7 @@ import Bredcrumb from "../HomeMain/Bredcrumb";
 const Main = () => {
   return (
     <>
+    <Bredcrumb/>
       <Appointment />
 
       <div className="map fix" style={{ background: "#F5F5F5" }}>

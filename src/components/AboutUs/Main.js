@@ -47,8 +47,9 @@ const Main = () => {
 
   return (
     <>
+    <Bredcrumb  />
       <About />
-      <div style={{ backgroundImage: `url(${BGImg})`,height:100 }}></div>
+      <Bredcrumb/>
 
       {/* <section className="team-area2 fix p-relative pt-105 pb-80">
         <div className="container">

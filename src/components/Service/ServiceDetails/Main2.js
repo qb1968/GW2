@@ -2,9 +2,6 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import Bredcrumb from '../../HomeMain/Bredcrumb'
 import BGImg from "../../../assets/img/bg/marble2.jpg";
-import IMG from "../../../assets/img/features/Emsculpt Neo transformation.png"
-import IMG2 from "../../../assets/img/features/EN.jpg"
-import IMG3 from "../../../assets/img/features/EN2.jpg"
 
 const Main = () => {
     return (
@@ -28,12 +25,12 @@ const Main = () => {
                             <i className="fa fa-arrow-right"></i>
                           </Link>
                         </li>
-                        <li className="active">
+                        <li >
                           <Link to="/service-details">
                             Emsculpt Neo <i className="fa fa-arrow-right"></i>{" "}
                           </Link>{" "}
                         </li>
-                        <li>
+                        <li className="active">
                           <Link to="/service-details2">
                             {" "}
                             Emsella <i className="fa fa-arrow-right"></i>
@@ -74,7 +71,7 @@ const Main = () => {
               <div className="col-lg-8 col-md-12 col-sm-12 order-2">
                 <div className="service-detail">
                   <div className="content-box">
-                    <h2 style={{color:"black"}}> What Is Emsculpt Neo?</h2>
+                    <h2 style={{color:"black"}}> What Is Emsella?</h2>
                     <p>
                       Emsculpt Neo is the only non-invasive technology that
                       simultaneously uses radiofrequency and HIFEM+ energies to
@@ -139,7 +136,7 @@ const Main = () => {
                         <div className="image-column col-xl-6 col-lg-12 col-md-12">
                           <figure className="image">
                             <img
-                              src={IMG}
+                              src="assets/img/blog/inner_b1.jpg"
                               alt="blog"
                             />
                           </figure>
@@ -147,7 +144,7 @@ const Main = () => {
                         <div className="text-column col-xl-6 col-lg-12 col-md-12">
                           <figure className="image">
                             <img
-                              src={IMG2}
+                              src="assets/img/blog/inner_b2.jpg"
                               alt="blog"
                             />
                           </figure>
@@ -179,18 +176,24 @@ const Main = () => {
                         <div className="image-column col-xl-12 col-lg-12 col-md-12">
                           <figure className="image">
                             <img
-                              src={IMG3}
+                              src="assets/img/blog/b_details01.jpg"
                               alt="blog"
                             />
                           </figure>
                         </div>
                       </div>
                     </div>
-                    <h3 style={{color: "black"}}>What is HIFEM+</h3>
                     <p>
-                    HIFEM® stands for high intensity focused electromagnetic technology. 
-HIFEM® uses a powerful but harmless form of electromagnetic stimulation to contract the muscles in a targeted area. These magnetic fields create electrical currents, which are passed to the muscles. When these magnetic pulses are fast enough, they force the muscles to contract, much like they do during times of strenuous exercise. 
-Therefore, when the muscles contract enough times, they begin to build muscles and burn fat. This gives treatments like Emsculpt Neo® its contouring power.
+                      Phasellus hac phasellus consequat malesuada veler aliquam
+                      dictumst amet a phasellus lacinia integer curabitur duis.
+                      Urna taciti nisl torquent varius libero dui. Tempus magnis
+                      libero pulvinar purus pharetra justo sem curae duis eget
+                      tempus erat ornare. Consequat litora a blandit fermentum.
+                      Quam taciti site nascetur nunc litora quis tempor metus
+                      adipiscing ac quis sodales ultrices cubilia. Arcu in
+                      penatibus vestibulum diam. Curabitur platea quam fusce
+                      molestie venenatis platea ligula in aenean gravida dolor
+                      aptent nostra luctus rutrum morbi porttitor cursus
                     </p>
                   </div>
                 </div>

@@ -8,15 +8,19 @@ import Icon4 from "../../assets/img/icon/stones.png";
 import Icon5 from "../../assets/img/icon/spa.png";
 import Icon6 from "../../assets/img/icon/microb.jpg";
 import Img from "../../assets/img/features/services-img-details2.png";
+import Bredcrumb from "./Bredcrumb";
 
 const Service = () => {
   return (
+    
+    <>
+    <Bredcrumb/>
     <section
       id="service-details2"
       className="service-details-two pb-105 p-relative"
       style={{
        
-        backgroundImage: `url(${BGImg2})`,
+        backgroundColor:"#58846D",
       }}
     >
       <div className="container">
@@ -131,6 +135,8 @@ const Service = () => {
         </div>
       </div>
     </section>
+    <Bredcrumb/>
+    </>
   );
 };
 

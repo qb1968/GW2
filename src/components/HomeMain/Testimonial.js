@@ -60,12 +60,10 @@ const Testimonial = () => {
                 data-animation="fadeInDown"
                 data-delay=".4s"
               >
-                <h5>Our Testimonial</h5>
-                <h2>What Our Clients Says</h2>
+                <h5>Testimonials</h5>
+                
                 <p className="mt-15">
-                  Nullam posuere eros ex, vitae consequat ipsum semper cursus.
-                  In ut commodo eros. Vestibulum sed elit id orci rhoncus. Duis
-                  quis nunc eu augue efficitur suscipit.
+                  At Gentle Wellnes don't take our word for it. Listen to what our clients have to say.
                 </p>
               </div>
             </div>

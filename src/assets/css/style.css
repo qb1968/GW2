@@ -893,6 +893,7 @@ z-index: 9;
 .header-three .main-menu ul li a {
         font-family: 'PT Serif', serif;
     color:#141b22;
+    
 }
 .header-three .main-menu .sub-menu li a,.menu .children li a {
     color: #4f4f4f !important;
@@ -1064,7 +1065,7 @@ background: #884cd2;
 .breadcrumb-area {
 background-size: cover;
 position: relative;
-min-height: 550px;
+min-height: 200px;
 background-repeat: no-repeat;
 background-color: #000;
 background-position: 0 bottom;
@@ -1998,7 +1999,7 @@ width: 66%;
 	color: #fff;
 }
 .section-title h5{
-  color: #ff4f9d;
+  color: #CAB171;
 text-transform: uppercase;
 font-size: 22px;
     margin-bottom: 15px;
@@ -3389,6 +3390,7 @@ margin-right: 15px;
   border-style: solid;
 padding: 0 0 30px 0;
     border-radius: 4px;
+    background-color: #58846D;
 }
 .team-area .container{
     z-index: 1;
@@ -3507,11 +3509,13 @@ padding: 5px 0px 0;
 transition: .3s;
 position: relative;
     text-align: center;
+    background-color: #58846D;
 }
 
 .team-info .text {
     padding-left: 30px;
-    border-left: 5px solid #ff4f9d;
+    border-left: 5px solid black;
+    
 }
 
 .team-info h4 {
@@ -3522,15 +3526,15 @@ position: relative;
 .team-info span {
 	font-size: 16px;
 	transition: .3s;
-    color: #ff4f9d;
+    color: black;
     font-weight: 600;
 }
 .team-info p{
     margin-bottom: 0;
-    color: #ff4f9d;
+    color: black;
 }
 .team-social a {
-color: #fff;
+color: #58846d00;
 display: inline-block;
 text-align: center;
 border-radius: 50%;
@@ -4285,7 +4289,7 @@ float: left;
 margin-left: 15px;
 }
 .testimonial-active .ta-info span {
-color: #884cd2;
+color: #CAB171;
 font-size: 14px;
 }
 .testimonial-active .ta-info h6 {
@@ -5885,10 +5889,10 @@ top: -3px;
 .main-menu .has-sub > ul > .has-sub > ul > .has-sub:hover > ul {display: block;}
 
 .main-menu .has-sub ul li a {
-    color: #4f4f4f;
+    color: black;
 }
 .main-menu .has-sub ul li a:hover {
-    color: #ff4f9d;
+    color: #58846D;
 }
 /* 23. mega menu */
 
@@ -7985,8 +7989,8 @@ margin-bottom: 30px;
 }
 .services-categories li.active a,
 .services-categories li:hover a{
-	color: #ffffff;
-    background: #ff4f9d;
+	color: #CAB171;
+    background: #58846D;
 }
 
 .services-categories li a:before{
@@ -8045,14 +8049,14 @@ background: #E8EAEC;
   position: absolute;
   width: 30px;
   height: 6px;
-  background-color: #ff4f9d;
+  background-color: black;
   border-radius: 10px;
   left: 50%;
   bottom: 0;
   transform: translate(-50%);
 }
 .service-detail-contact a {
-color: #ff4f9d;
+color: #58846D;
 font-size: 25px;
 font-weight: 900;
 transition: 0.3s;

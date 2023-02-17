@@ -16,7 +16,7 @@ const Main = () => {
         <div
           id="header-sticky"
           className="menu-area"
-          style={{ backgroundImage: `url(${BGImg})` }}
+           style={{backgroundColor:"#58846D"}}
         >
           <div className="container" style={{}}>
             <div className="second-menu">
@@ -25,7 +25,7 @@ const Main = () => {
                   <div className="logo">
                     <Link to="/">
                       <img
-                        style={{  height: 200 }}
+                        style={{ width:100, height: 100 }}
                         src={Img1}
                         alt="logo"
                       />
@@ -39,7 +39,7 @@ const Main = () => {
                         <li className="has-sub">
                           <Link
                             to="/"
-                            style={{ fontSize: 24, color: "#58846d" }}
+                            style={{ fontSize: 20, color: "black" }}
                           >
                             Home
                           </Link>
@@ -47,7 +47,7 @@ const Main = () => {
                         <li>
                           <Link
                             to="/about"
-                            style={{ fontSize: 24, color: "#58846d" }}
+                            style={{ fontSize: 20, color: "black" }}
                           >
                             About Us
                           </Link>
@@ -55,7 +55,7 @@ const Main = () => {
                         <li className="has-sub">
                           <Link
                             to="/service"
-                            style={{ fontSize: 24, color: "#58846d" }}
+                            style={{ fontSize: 20, color: "black" }}
                           >
                             Services
                           </Link>
@@ -64,26 +64,26 @@ const Main = () => {
                               <Link to="/service-details"> Emsculpt Neo</Link>
                             </li>
                             <li>
-                              <Link to="/service-details">Emsella</Link>
+                              <Link to="/service-details2">Emsella</Link>
                             </li>
                             <li>
-                              <Link to="/service-details"> Facial Treatments</Link>
+                              <Link to="/service-details3"> Facial Treatments</Link>
                             </li>
                             <li>
-                              <Link to="/service-details">Hair Removal</Link>
+                              <Link to="/service-details4">Hair Removal</Link>
                             </li>
                             <li>
-                              <Link to="/service-details">Eyelash Extensions</Link>
+                              <Link to="/service-details5">Eyelash Extensions</Link>
                             </li>
                             <li>
-                              <Link to="/service-details">Microblading</Link>
+                              <Link to="/service-details6">Microblading</Link>
                             </li>
                           </ul>
                         </li>
                         <li className="has-sub">
                           <Link
                             to="#"
-                            style={{ fontSize: 24, color: "#58846d" }}
+                            style={{ fontSize: 20, color: "black" }}
                           >
                             Pages
                           </Link>
@@ -101,7 +101,7 @@ const Main = () => {
                         <li>
                           <Link
                             to="/contact"
-                            style={{ fontSize: 24, color: "#58846d" }}
+                            style={{ fontSize: 20, color: "black", }}
                           >
                             Contact
                           </Link>
@@ -145,23 +145,7 @@ const Main = () => {
                           <ul style={{ display: mobile ? "block" : "none" }}>
                             <li className="has-sub">
                               <Link to="/">Home</Link>
-                              <ul style={{ display: show ? "block" : "none" }}>
-                                <li>
-                                  <Link to="/">Home Page 01</Link>
-                                </li>
-                              </ul>
-                              <Link
-                                to="#"
-                                className={`mean-expand ${
-                                  show && "mean-clicked"
-                                }`}
-                                onClick={() =>
-                                  setshow(show === true ? false : true)
-                                }
-                                style={{ fontSize: "18px" }}
-                              >
-                                +
-                              </Link>
+                              
                             </li>
                             <li>
                               <Link to="/about/">About Us</Link>
@@ -174,19 +158,19 @@ const Main = () => {
                                   <Link to="/service-details"> Emsculpt Neo</Link>
                                 </li>
                                 <li>
-                                  <Link to="/service-details">Emsella</Link>
+                                  <Link to="/service-details2">Emsella</Link>
                                 </li>
                                 <li>
-                                  <Link to="/service-details"> Facial Treatments</Link>
+                                  <Link to="/service-details3"> Facial Treatments</Link>
                                 </li>
                                 <li>
-                                  <Link to="/service-details">Hair Removal</Link>
+                                  <Link to="/service-details4">Hair Removal</Link>
                                 </li>
                                 <li>
-                                  <Link to="/service-details">Eyelash Extensions</Link>
+                                  <Link to="/service-details5">Eyelash Extensions</Link>
                                 </li>
                                 <li>
-                                  <Link to="/service-details">Microblading</Link>
+                                  <Link to="/service-details6">Microblading</Link>
                                 </li>
                               </ul>
                               <Link

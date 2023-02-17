@@ -12,7 +12,7 @@ const Appointment = () => {
           backgroundSize: "cover",
           backgroundPosition: "center",
           backgroundRepeat: "no-repeat",
-          backgroundImage: `url(${BGImg3})`,
+          backgroundColor: "#58846D",
         }}
       >
         <div className="container">
