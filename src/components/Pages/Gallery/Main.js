@@ -5,9 +5,9 @@ import Gallery from '../../HomeMain/Gallery'
 const Main = () => {
   return (
     <>
-     
+        <Bredcrumb/>
         <Gallery />
-      
+        <Bredcrumb/>
     </>
   )
 }

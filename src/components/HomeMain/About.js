@@ -1,7 +1,7 @@
 import React from "react";
 import BGImg1 from "../../assets/img/bg/about-bg.png";
 import { Link } from "react-router-dom";
-import Img from "../../assets/img/brand/Product-Shot.jpg";
+import Img from "../../assets/img/gallery/Texture-1.jpg";
 
 const About = () => {
   return (
@@ -24,10 +24,10 @@ const About = () => {
                 data-delay=".4s"
               >
                 <img src={Img} alt="img" />
-                <div className="about-text second-about">
+                {/* <div className="about-text second-about">
                   <span>15</span>
                   <p>Years of Experience</p>
-                </div>
+                </div> */}
               </div>
             </div>
             <div className="col-lg-6 col-md-12 col-sm-12">
@@ -38,7 +38,7 @@ const About = () => {
               >
                 <div className="about-title second-title pb-25">
                   <h5>About Us</h5>
-                  <h2>Best Way To Care Your Skin</h2>
+                  <h2>Best Way To Care For Your Body and Skin</h2>
                 </div>
                 <p>
                   Suspendisse et porttitor leo. Sed porttitor dui sit amet

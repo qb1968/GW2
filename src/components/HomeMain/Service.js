@@ -40,7 +40,7 @@ const Service = () => {
                   </div>
                   <div className="text">
                     <h4>
-                      <Link to="/service-details">Facial Treatments</Link>
+                      <Link to="/service-details3">Facial Treatments</Link>
                     </h4>
                     <p>
                       Cras id aliquam leo. Vestibulum laoreet, mi sit amet
@@ -54,7 +54,7 @@ const Service = () => {
                   </div>
                   <div className="text">
                     <h4>
-                      <Link to="/service-details">Hair Removal</Link>
+                      <Link to="/service-details4">Hair Removal</Link>
                     </h4>
                     <p>
                       Aenean eleifend turpis tellus, nec laoreet metus elementum
@@ -68,7 +68,7 @@ const Service = () => {
                   </div>
                   <div className="text">
                     <h4>
-                      <Link to="/service-details">Eyelash Extensions</Link>
+                      <Link to="/service-details5">Eyelash Extensions</Link>
                     </h4>
                     <p>
                       Aenean eleifend turpis tellus, nec laoreet metus elementum
@@ -107,7 +107,7 @@ const Service = () => {
                   </div>
                   <div className="text pt-10">
                     <h4>
-                      <Link to="/service-details">Emsella</Link>
+                      <Link to="/service-details2">Emsella</Link>
                     </h4>
                     <p>
                       Aenean eleifend turpis tellus, nec laoreet metus elementum
@@ -121,7 +121,7 @@ const Service = () => {
                   </div>
                   <div className="text pt-10">
                     <h4>
-                      <Link to="/service-details">Microblading</Link>
+                      <Link to="/service-details6">Microblading</Link>
                     </h4>
                     <p>
                       Aenean eleifend turpis tellus, nec laoreet metus elementum

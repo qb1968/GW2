@@ -153,7 +153,7 @@ const Main = () => {
 
                             <li className="has-sub">
                               <Link to="/service">Services</Link>
-                              <ul style={{ display: show1 ? "block" : "none" }}>
+                              <ul >
                                 <li>
                                   <Link to="/service-details"> Emsculpt Neo</Link>
                                 </li>

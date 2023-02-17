@@ -3,12 +3,13 @@ import { Link } from 'react-router-dom'
 import Bredcrumb from '../../HomeMain/Bredcrumb'
 import BGImg from "../../../assets/img/bg/marble2.jpg";
 
-const Main6 = () => {
+const Main = () => {
     return (
       <>
+      <Bredcrumb/>
         <div
           className="about-area5 about-p p-relative"
-          style={{ backgroundImage: `url(${BGImg})` }}
+          style={{ backgroundColor:"#58846D" }}
         >
           <div className="container pt-120 pb-90">
             <div className="row">
@@ -17,37 +18,37 @@ const Main6 = () => {
                   <div className="sidebar-widget categories">
                     <div className="widget-content">
                       <ul className="services-categories">
-                        <li>
-                          <Link to="/service-details">
+                        <li >
+                          <Link to="/service-details3">
                             {" "}
                             Facial Treatments{" "}
                             <i className="fa fa-arrow-right"></i>
                           </Link>
                         </li>
-                        <li className="active">
+                        <li >
                           <Link to="/service-details">
                             Emsculpt Neo <i className="fa fa-arrow-right"></i>{" "}
                           </Link>{" "}
                         </li>
-                        <li>
-                          <Link to="/service-details">
+                        <li >
+                          <Link to="/service-details2">
                             {" "}
                             Emsella <i className="fa fa-arrow-right"></i>
                           </Link>
                         </li>
                         <li>
-                          <Link to="/service-details">
+                          <Link to="/service-details4">
                             Hair Removal <i className="fa fa-arrow-right"></i>
                           </Link>
                         </li>
                         <li>
-                          <Link to="/service-details">
+                          <Link to="/service-details5">
                             Eyelash Extensions
                             <i className="fa fa-arrow-right"></i>
                           </Link>
                         </li>
-                        <li>
-                          <Link to="/service-details">
+                        <li className="active">
+                          <Link to="/service-details6">
                             Microblading <i className="fa fa-arrow-right"></i>
                           </Link>
                         </li>
@@ -70,7 +71,7 @@ const Main6 = () => {
               <div className="col-lg-8 col-md-12 col-sm-12 order-2">
                 <div className="service-detail">
                   <div className="content-box">
-                    <h2> What Is Emsculpt Neo?</h2>
+                    <h2 style={{color:"black"}}> Microblading</h2>
                     <p>
                       Emsculpt Neo is the only non-invasive technology that
                       simultaneously uses radiofrequency and HIFEM+ energies to
@@ -78,7 +79,7 @@ const Main6 = () => {
                       reduction and muscle growth in less time than with any
                       single gold-standard product.
                     </p>
-                    <h2>What area of the body does Emsculpt Neo treat? </h2>
+                    <h2 style={{color:"black"}}>What area of the body does Emsculpt Neo treat? </h2>
 
                     <ul>
                       <li
@@ -150,9 +151,9 @@ const Main6 = () => {
                         </div>
                       </div>
                     </div>
-                    <h3>How long is the treatment</h3>
+                    <h3 style={{color:"black"}}>How long is the treatment</h3>
                     <p>Standard treatment is 4 30-minute sessions</p>
-                    <h3>Is EMSCULPT NEO painful?</h3>
+                    <h3 style={{color:"black"}}>Is EMSCULPT NEO painful?</h3>
                     <p>
                       EMSCULPT NEO treatments may feel intense but should never
                       be painful. What happens to the fat that is eliminated by
@@ -160,7 +161,7 @@ const Main6 = () => {
                       die and are naturally eliminated from the body through
                       metabolic processes.
                     </p>
-                    <h3> How is EMSCULPT NEO procedure performed?</h3>
+                    <h3 style={{color:"black"}}> How is EMSCULPT NEO procedure performed?</h3>
                     <p>
                       EMSCULPT NEO procedure is simple and easy. There is no
                       pre-preparation required for this procedure. You will lay
@@ -200,8 +201,9 @@ const Main6 = () => {
             </div>
           </div>
         </div>
-      </>
+        <Bredcrumb/>      
+        </>
     );
 }
 
-export default Main6
+export default Main

@@ -65,12 +65,12 @@ const Appointment = () => {
                           aria-label="Example select with button addon"
                         >
                           <option> Department...</option>
-                          <option value="1">One</option>
-                          <option value="2">Two</option>
-                          <option value="3">Three</option>
-                          <option value="4">Three</option>
-                          <option value="5">Three</option>
-                          <option value="6">Three</option>
+                          <option value="1">Emsulpt Neo</option>
+                          <option value="2">Emsella</option>
+                          <option value="3">Facial Treatments</option>
+                          <option value="4">Hair Removal</option>
+                          <option value="5">Eyelash Extensions</option>
+                          <option value="6">Microblading</option>
                         </select>
                         <i className="fa fa-angle-down"></i>
                       </div>
