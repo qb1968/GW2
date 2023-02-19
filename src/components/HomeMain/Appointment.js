@@ -119,16 +119,20 @@ const Appointment = () => {
                 <h2 style={{color:"black"}}>Dunkirk, MD 20754</h2>
                 <h3 style={{color:"black"}}>Opening Hours</h3>
                 <div className="text">
-                  <div style={{color:"black"}} className="left-text">Monday to Friday:</div>
-                  <div style={{color:"black"}} className="right-text">09:00 am – 10:00 pm</div>
+                  <div style={{color:"black"}} className="left-text">Monday thru Wednsday:</div>
+                  <div style={{color:"black"}} className="right-text">8:00 am – 5:00 pm</div>
+                </div>
+                <div className="text">
+                  <div style={{color:"black"}} className="left-text">Thursday and Friday:</div>
+                  <div style={{color:"black"}} className="right-text">8:00 am – 6:00 pm</div>
                 </div>
                 <div className="text">
                   <div style={{color:"black"}} className="left-text">Saturday:</div>
-                  <div style={{color:"black"}} className="right-text">09:00 am – 08:00 pm</div>
+                  <div style={{color:"black"}} className="right-text">8:00 am – 3:00 pm</div>
                 </div>
                 <div className="text">
                   <div style={{color:"black"}} className="left-text">Sunday:</div>
-                  <div style={{color:"black"}} className="right-text">09:00 am – 05:00 pm</div>
+                  <div style={{color:"black"}} className="right-text">11:00 am – 4:00 pm</div>
                 </div>
                 
               </div>
