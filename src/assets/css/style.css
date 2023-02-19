@@ -3600,7 +3600,7 @@ border-radius: 50%;
 }
 
 .team-info h4 a:hover{
-      color: #ff4f9d;
+      color: purple;
 }
 .team-area-content span {
     margin-bottom: 10px;
@@ -4270,7 +4270,8 @@ margin: 20px;
 .testimonial-active .slick-slide
 {
 position: relative;
-background-color:#fff5e7;
+/* background-color:#fff5e7; */
+background-color:#58846D;
 padding:30px;
 margin: 0 15px 15px;
 box-shadow: 1px 1.732px 60px 0px rgba(0, 0, 0, 0.01);

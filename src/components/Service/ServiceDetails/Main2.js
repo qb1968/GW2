@@ -2,6 +2,9 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import Bredcrumb from '../../HomeMain/Bredcrumb'
 import BGImg from "../../../assets/img/bg/marble2.jpg";
+import IMG from "../../../assets/img/features/emsella.jpeg"
+import IMG2 from "../../../assets/img/features/emsella2.jpeg"
+import IMG3 from "../../../assets/img/features/emsella3.jpeg"
 
 const Main = () => {
     return (
@@ -73,70 +76,22 @@ const Main = () => {
                   <div className="content-box">
                     <h2 style={{color:"black"}}> What Is Emsella?</h2>
                     <p>
-                      Emsculpt Neo is the only non-invasive technology that
-                      simultaneously uses radiofrequency and HIFEM+ energies to
-                      eliminate fat and build muscle. The end result is more fat
-                      reduction and muscle growth in less time than with any
-                      single gold-standard product.
+                    EMSELLA uses electromagnetic energy to cause deep pelvic floor muscle stimulation without getting undressed! A single BTL EMSELLA session brings thousands of Kegel-like contractions which help you train your muscles without any effort. Scientific research shows that 95% of treated patients have reported significant improvement in their quality of life.
                     </p>
-                    <h2 style={{color:"black"}}>What area of the body does Emsculpt Neo treat? </h2>
+                    <h2 style={{color:"black"}}>What are the benefits of Emsella? </h2>
+                    <p>
+                    EMSELLA is a great option for women of any age who desire a non-invasive solution for urinary incontinence and improvement in their quality of life. Due to factors such as the body's normal aging, childbirth or menopause, the pelvic floor muscles decondition and insufficiently support the pelvic organs. These factors directly correlate with urinary incontinence. 
+Emsella treatments for men have substantially improved many individuals' quality of life, confidence, sexual health, and sexual performance. Treatments are quick, non-surgical, and pain-free, providing men with a comfortable solution to stressful conditions. 
+The pelvic floor muscles support the bladder, rectum, and prostate. When these muscles become weakened, it can lead to issues such as urinary incontinence, erectile dysfunction, and premature ejaculation. 
 
-                    <ul>
-                      <li
-                        style={{
-                          color: "black",
-                          listStyle: "disc outside none",
-                        }}
-                      >
-                        Abdominal Area
-                      </li>
-                      <li
-                        style={{
-                          color: "black",
-                          listStyle: "disc outside none",
-                        }}
-                      >
-                        Buttocks
-                      </li>
-                      <li
-                        style={{
-                          color: "black",
-                          listStyle: "disc outside none",
-                        }}
-                      >
-                        Front and Back Thighs
-                      </li>
-                      <li
-                        style={{
-                          color: "black",
-                          listStyle: "disc outside none",
-                        }}
-                      >
-                        Outer and Inner Thighs
-                      </li>
-                      <li
-                        style={{
-                          color: "black",
-                          listStyle: "disc outside none",
-                        }}
-                      >
-                        Biceps and Triceps
-                      </li>
-                      <li
-                        style={{
-                          color: "black",
-                          listStyle: "disc outside none",
-                        }}
-                      >
-                        Calves
-                      </li>
-                    </ul>
+                    </p>
+                    
                     <div className="two-column">
                       <div className="row">
                         <div className="image-column col-xl-6 col-lg-12 col-md-12">
                           <figure className="image">
                             <img
-                              src="assets/img/blog/inner_b1.jpg"
+                              src={IMG}
                               alt="blog"
                             />
                           </figure>
@@ -144,57 +99,30 @@ const Main = () => {
                         <div className="text-column col-xl-6 col-lg-12 col-md-12">
                           <figure className="image">
                             <img
-                              src="assets/img/blog/inner_b2.jpg"
+                              src={IMG2}
                               alt="blog"
                             />
                           </figure>
                         </div>
                       </div>
                     </div>
-                    <h3 style={{color:"black"}}>How long is the treatment</h3>
-                    <p>Standard treatment is 4 30-minute sessions</p>
-                    <h3 style={{color:"black"}}>Is EMSCULPT NEO painful?</h3>
-                    <p>
-                      EMSCULPT NEO treatments may feel intense but should never
-                      be painful. What happens to the fat that is eliminated by
-                      EMSCULPT NEO procedure? After the treatment, the fat cells
-                      die and are naturally eliminated from the body through
-                      metabolic processes.
-                    </p>
-                    <h3 style={{color:"black"}}> How is EMSCULPT NEO procedure performed?</h3>
-                    <p>
-                      EMSCULPT NEO procedure is simple and easy. There is no
-                      pre-preparation required for this procedure. You will lay
-                      down while the applicators are applied over the treatment
-                      area for 30 minutes. During the treatment you may feel
-                      intense yet tolerable heating sensation along with muscle
-                      contractions. Once the procedure is completed, you can
-                      immediately get back to your daily routine.
-                    </p>
+                    <h3 style={{color:"black"}}>How many treatments are needed? </h3>
+                    <p>Results after about six sessions, scheduled twice a week</p>
+                    
+                   
                     <div className="two-column">
                       <div className="row">
                         <div className="image-column col-xl-12 col-lg-12 col-md-12">
                           <figure className="image">
                             <img
-                              src="assets/img/blog/b_details01.jpg"
+                              src={IMG3}
                               alt="blog"
                             />
                           </figure>
                         </div>
                       </div>
                     </div>
-                    <p>
-                      Phasellus hac phasellus consequat malesuada veler aliquam
-                      dictumst amet a phasellus lacinia integer curabitur duis.
-                      Urna taciti nisl torquent varius libero dui. Tempus magnis
-                      libero pulvinar purus pharetra justo sem curae duis eget
-                      tempus erat ornare. Consequat litora a blandit fermentum.
-                      Quam taciti site nascetur nunc litora quis tempor metus
-                      adipiscing ac quis sodales ultrices cubilia. Arcu in
-                      penatibus vestibulum diam. Curabitur platea quam fusce
-                      molestie venenatis platea ligula in aenean gravida dolor
-                      aptent nostra luctus rutrum morbi porttitor cursus
-                    </p>
+                    
                   </div>
                 </div>
               </div>

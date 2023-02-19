@@ -51,7 +51,7 @@ const Gallery = () => {
             </div>
           </div>
           <div className="row">
-            <div className="col-lg-12">
+            <div className="col-lg-14">
               <div className="masonry-gallery-huge portfolio ">
                 <div
                   className="grid col4"

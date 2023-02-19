@@ -43,8 +43,7 @@ const Service = () => {
                       <Link to="/service-details3">Facial Treatments</Link>
                     </h4>
                     <p>
-                      Cras id aliquam leo. Vestibulum laoreet, mi sit amet
-                      tristique tincidunt nec laoreet.
+                    A professional facial is designed to improve your skin.
                     </p>
                   </div>
                 </li>
@@ -57,8 +56,7 @@ const Service = () => {
                       <Link to="/service-details4">Hair Removal</Link>
                     </h4>
                     <p>
-                      Aenean eleifend turpis tellus, nec laoreet metus elementum
-                      ac.
+                    Hair removal, also known as epilation or depilation, is the deliberate removal of body hair or head hair. 
                     </p>
                   </div>
                 </li>
@@ -71,8 +69,7 @@ const Service = () => {
                       <Link to="/service-details5">Eyelash Extensions</Link>
                     </h4>
                     <p>
-                      Aenean eleifend turpis tellus, nec laoreet metus elementum
-                      ac.
+                    Eyelash extensions are synthetic or natural fibers that are attached to your natural eyelashes one by one with a medical-grade adhesive to give the appearance of longer, fuller and thicker eyelashes.
                     </p>
                   </div>
                 </li>
@@ -96,8 +93,7 @@ const Service = () => {
                       <Link to="/service-details">Emsculpt Neo</Link>
                     </h4>
                     <p>
-                      Aenean eleifend turpis tellus, nec laoreet metus elementum
-                      ac.
+                    EMSCULPT NEO is a noninvasive body contouring treatment that is performed in a series of 30 minute sessions. 
                     </p>
                   </div>
                 </li>
@@ -110,8 +106,7 @@ const Service = () => {
                       <Link to="/service-details2">Emsella</Link>
                     </h4>
                     <p>
-                      Aenean eleifend turpis tellus, nec laoreet metus elementum
-                      ac.
+                    A breakthrough pelvic floor physiotherapy treatment that greatly improves the quality of life for those with serious urinary incontinence.
                     </p>
                   </div>
                 </li>
@@ -124,8 +119,7 @@ const Service = () => {
                       <Link to="/service-details6">Microblading</Link>
                     </h4>
                     <p>
-                      Aenean eleifend turpis tellus, nec laoreet metus elementum
-                      ac.
+                    Is a form of a cosmetic semi-permanent makeup performed using, a manual (not a machine) disposable handheld tool
                     </p>
                   </div>
                 </li>

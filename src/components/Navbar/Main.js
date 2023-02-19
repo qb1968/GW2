@@ -1,7 +1,8 @@
 import { Link } from "react-router-dom";
 import React, { useState } from "react";
-import Img1 from "../../assets/img/logo/gentle-wellness-logo (2).png";
+import Img1 from "../../assets/img/logo/Rectangle.png";
 import BGImg from "../../assets/img/bg/marblebg.jpg"
+import BG2 from "../../assets/img/bg/marble2.jpg"
 
 const Main = () => {
   const [mobile, setmobile] = useState(false);
@@ -22,14 +23,11 @@ const Main = () => {
             <div className="second-menu">
               <div className="row align-items-center">
                 <div className="col-xl-4 col-lg-4">
-                  <div className="logo">
+                  <div style={{marginTop:"10px",marginBottom:"10px",height:"70px",width:"315px",padding:"5px",alignContent:"center",backgroundImage:`url(${BG2})`}} className="logo">
                     <Link to="/">
-                      <img
-                        style={{width:"100%"}}
-                        src={Img1}
-                        alt="logo"
-                      />
-                    </Link>
+                      <h4 style={{fontFamily:"Labrada,serif",fontWeight:"bold",alignItems:"center",textAlign:"center",color:"#58846D",fontSize:"25px",textDecoration:"none"}}>Gentle Wellness</h4>
+                      <p style={{fontFamily:"Labrada,serif",fontWeight:"bold",alignItems:"center",textAlign:"center",color:"black",fontSize:"20px",textDecoration:"none"}}>Medi-Spa</p>
+                    </Link>     
                   </div>
                 </div>
                 <div className="col-xl-7 col-lg7">
@@ -39,23 +37,28 @@ const Main = () => {
                         <li className="has-sub">
                           <Link
                             to="/"
-                            style={{ fontSize: 20, color: "black" }}
+                            style={{ fontSize: 18, color: "black" }}
                           >
                             Home
                           </Link>
                         </li>
-                        <li>
+                        <li className="has-sub">
                           <Link
                             to="/about"
-                            style={{ fontSize: 20, color: "black" }}
+                            style={{ fontSize: 18, color: "black" }}
                           >
                             About Us
                           </Link>
+                          <ul>
+                            <li>
+                              <Link to="/team">Our Team</Link>
+                            </li>
+                          </ul>
                         </li>
                         <li className="has-sub">
                           <Link
                             to="/service"
-                            style={{ fontSize: 20, color: "black" }}
+                            style={{ fontSize: 18, color: "black" }}
                           >
                             Services
                           </Link>
@@ -82,26 +85,17 @@ const Main = () => {
                         </li>
                         <li className="has-sub">
                           <Link
-                            to="#"
-                            style={{ fontSize: 20, color: "black" }}
+                            to="/gallery"
+                            style={{ fontSize: 18, color: "black" }}
                           >
-                            Pages
+                            Gallery
                           </Link>
-                          <ul>
-                            <li>
-                              <Link to="/gallery">Gallery</Link>
-                            </li>
-
-                            <li>
-                              <Link to="/team">Team</Link>
-                            </li>
-                          </ul>
-                        </li>
+                          </li>
 
                         <li>
                           <Link
                             to="/contact"
-                            style={{ fontSize: 20, color: "black", }}
+                            style={{ fontSize: 18, color: "black", }}
                           >
                             Contact
                           </Link>
@@ -147,8 +141,13 @@ const Main = () => {
                               <Link to="/">Home</Link>
                               
                             </li>
-                            <li>
+                            <li className="has-sub">
                               <Link to="/about/">About Us</Link>
+                              <ul>
+                                <li>
+                                  <Link to="/team">Our Team</Link>
+                                </li>
+                              </ul>
                             </li>
 
                             <li className="has-sub">
@@ -174,7 +173,7 @@ const Main = () => {
                                 </li>
                               </ul>
                               <Link
-                                to="#"
+                                to="/service"
                                 className={`mean-expand ${
                                   show1 && "mean-clicked"
                                 }`}
@@ -187,18 +186,10 @@ const Main = () => {
                               </Link>
                             </li>
                             <li className="has-sub">
-                              <Link to="#">Pages</Link>
-                              <ul style={{ display: show2 ? "block" : "none" }}>
-                                <li>
-                                  <Link to="/gallery">Gallery</Link>
-                                </li>
-
-                                <li>
-                                  <Link to="/team">Team</Link>
-                                </li>
-                              </ul>
-                              <Link
-                                to="#"
+                              <Link to="/gallery">Gallery</Link>
+                              
+                              {/* <Link
+                                to="/gallery"
                                 className={`mean-expand ${
                                   show2 && "mean-clicked"
                                 }`}
@@ -208,10 +199,10 @@ const Main = () => {
                                 style={{ fontSize: "18px" }}
                               >
                                 +
-                              </Link>
+                              </Link> */}
                             </li>
                             <li className="has-sub">
-                              <Link
+                              {/* <Link
                                 to="/contact"
                                 className={`mean-expand ${
                                   show3 && "mean-clicked"
@@ -222,7 +213,7 @@ const Main = () => {
                                 style={{ fontSize: "18px" }}
                               >
                                 +
-                              </Link>
+                              </Link> */}
                             </li>
                             <li className="mean-last">
                               <Link to="/contact">Contact</Link>

@@ -2,6 +2,9 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import Bredcrumb from '../../HomeMain/Bredcrumb'
 import BGImg from "../../../assets/img/bg/marble2.jpg";
+import IMG from "../../../assets/img/features/micro.jpeg"
+import IMG2 from "../../../assets/img/features/micro2.jpeg"
+import IMG3 from "../../../assets/img/features/micro3.jpeg"
 
 const Main = () => {
     return (
@@ -71,72 +74,21 @@ const Main = () => {
               <div className="col-lg-8 col-md-12 col-sm-12 order-2">
                 <div className="service-detail">
                   <div className="content-box">
-                    <h2 style={{color:"black"}}> Microblading</h2>
+                    <h2 style={{color:"black"}}>What Is Microblading</h2>
                     <p>
-                      Emsculpt Neo is the only non-invasive technology that
-                      simultaneously uses radiofrequency and HIFEM+ energies to
-                      eliminate fat and build muscle. The end result is more fat
-                      reduction and muscle growth in less time than with any
-                      single gold-standard product.
+                    Microblading and microshading is a form of cosmetic tattooing. It is a process of inserting pigment into the dermal layer of the skin. Microblading is excellent option for those with thinning, sparse, patchy, or missing eyebrows.
                     </p>
-                    <h2 style={{color:"black"}}>What area of the body does Emsculpt Neo treat? </h2>
-
-                    <ul>
-                      <li
-                        style={{
-                          color: "black",
-                          listStyle: "disc outside none",
-                        }}
-                      >
-                        Abdominal Area
-                      </li>
-                      <li
-                        style={{
-                          color: "black",
-                          listStyle: "disc outside none",
-                        }}
-                      >
-                        Buttocks
-                      </li>
-                      <li
-                        style={{
-                          color: "black",
-                          listStyle: "disc outside none",
-                        }}
-                      >
-                        Front and Back Thighs
-                      </li>
-                      <li
-                        style={{
-                          color: "black",
-                          listStyle: "disc outside none",
-                        }}
-                      >
-                        Outer and Inner Thighs
-                      </li>
-                      <li
-                        style={{
-                          color: "black",
-                          listStyle: "disc outside none",
-                        }}
-                      >
-                        Biceps and Triceps
-                      </li>
-                      <li
-                        style={{
-                          color: "black",
-                          listStyle: "disc outside none",
-                        }}
-                      >
-                        Calves
-                      </li>
-                    </ul>
+                    <h2 style={{color:"black"}}>How long does microblading last? </h2>
+                    <p>
+                    Typically results last 12-18 months. These results differ from traditional tattooing because the technique involves light, feather-like strokes that create a more natural looking eyebrow.
+                    </p>
+                   
                     <div className="two-column">
                       <div className="row">
                         <div className="image-column col-xl-6 col-lg-12 col-md-12">
                           <figure className="image">
                             <img
-                              src="assets/img/blog/inner_b1.jpg"
+                              src={IMG}
                               alt="blog"
                             />
                           </figure>
@@ -144,57 +96,34 @@ const Main = () => {
                         <div className="text-column col-xl-6 col-lg-12 col-md-12">
                           <figure className="image">
                             <img
-                              src="assets/img/blog/inner_b2.jpg"
+                              src={IMG2}
                               alt="blog"
                             />
                           </figure>
                         </div>
                       </div>
                     </div>
-                    <h3 style={{color:"black"}}>How long is the treatment</h3>
-                    <p>Standard treatment is 4 30-minute sessions</p>
-                    <h3 style={{color:"black"}}>Is EMSCULPT NEO painful?</h3>
+                    <h3 style={{color:"black"}}>Does microblading hurt? </h3>
+                    <p>We use high quality topical anesthetics to keep you as comfortable as possible. This is applied to the skin multiple times during the procedure, to keep you as comfortable as possible.</p>
+                    <h3 style={{color:"black"}}>Do I need to do anything after my appointment?</h3>
                     <p>
-                      EMSCULPT NEO treatments may feel intense but should never
-                      be painful. What happens to the fat that is eliminated by
-                      EMSCULPT NEO procedure? After the treatment, the fat cells
-                      die and are naturally eliminated from the body through
-                      metabolic processes.
+                    The most important aspect to remember for aftercare and healing process is that microblading causes tiny wounds on the skin. So, keeping this area clean during the healing process is important. 
                     </p>
-                    <h3 style={{color:"black"}}> How is EMSCULPT NEO procedure performed?</h3>
-                    <p>
-                      EMSCULPT NEO procedure is simple and easy. There is no
-                      pre-preparation required for this procedure. You will lay
-                      down while the applicators are applied over the treatment
-                      area for 30 minutes. During the treatment you may feel
-                      intense yet tolerable heating sensation along with muscle
-                      contractions. Once the procedure is completed, you can
-                      immediately get back to your daily routine.
-                    </p>
+                    
                     <div className="two-column">
                       <div className="row">
                         <div className="image-column col-xl-12 col-lg-12 col-md-12">
                           <figure className="image">
                             <img
-                              src="assets/img/blog/b_details01.jpg"
+                              src={IMG3}
                               alt="blog"
+                              style={{width:350}}
                             />
                           </figure>
                         </div>
                       </div>
                     </div>
-                    <p>
-                      Phasellus hac phasellus consequat malesuada veler aliquam
-                      dictumst amet a phasellus lacinia integer curabitur duis.
-                      Urna taciti nisl torquent varius libero dui. Tempus magnis
-                      libero pulvinar purus pharetra justo sem curae duis eget
-                      tempus erat ornare. Consequat litora a blandit fermentum.
-                      Quam taciti site nascetur nunc litora quis tempor metus
-                      adipiscing ac quis sodales ultrices cubilia. Arcu in
-                      penatibus vestibulum diam. Curabitur platea quam fusce
-                      molestie venenatis platea ligula in aenean gravida dolor
-                      aptent nostra luctus rutrum morbi porttitor cursus
-                    </p>
+                    
                   </div>
                 </div>
               </div>

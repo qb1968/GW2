@@ -81,6 +81,12 @@ const Main = () => {
                       eliminate fat and build muscle. The end result is more fat
                       reduction and muscle growth in less time than with any
                       single gold-standard product.
+                    </p> 
+                    <h3 style={{color: "black"}}>What is HIFEM+</h3>
+                    <p>
+                    HIFEM® stands for high intensity focused electromagnetic technology. 
+HIFEM® uses a powerful but harmless form of electromagnetic stimulation to contract the muscles in a targeted area. These magnetic fields create electrical currents, which are passed to the muscles. When these magnetic pulses are fast enough, they force the muscles to contract, much like they do during times of strenuous exercise. 
+Therefore, when the muscles contract enough times, they begin to build muscles and burn fat. This gives treatments like Emsculpt Neo® its contouring power.
                     </p>
                     <h2 style={{color:"black"}}>What area of the body does Emsculpt Neo treat? </h2>
 
@@ -186,12 +192,8 @@ const Main = () => {
                         </div>
                       </div>
                     </div>
-                    <h3 style={{color: "black"}}>What is HIFEM+</h3>
-                    <p>
-                    HIFEM® stands for high intensity focused electromagnetic technology. 
-HIFEM® uses a powerful but harmless form of electromagnetic stimulation to contract the muscles in a targeted area. These magnetic fields create electrical currents, which are passed to the muscles. When these magnetic pulses are fast enough, they force the muscles to contract, much like they do during times of strenuous exercise. 
-Therefore, when the muscles contract enough times, they begin to build muscles and burn fat. This gives treatments like Emsculpt Neo® its contouring power.
-                    </p>
+                   
+                    
                   </div>
                 </div>
               </div>

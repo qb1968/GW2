@@ -10,7 +10,8 @@ import Gallery from "../HomeMain/Gallery";
 import Pricing from "../HomeMain/Pricing";
 import Feature from "../HomeMain/Feature";
 import Product from "../HomeMain/Product";
-import Img10 from "../../assets/img/brand/Product-Shot.jpg";
+import Img10 from "../../assets/img/brand/front.jpg";
+import Img11 from "../../assets/img/brand/facialbed.jpg";
 import Bredcrumb from "../HomeMain/Bredcrumb";
 
 const Main = () => {
@@ -33,9 +34,8 @@ const Main = () => {
                     <div className="slider-content s-slider-content mt-20">
                      
                       <h2 style={{color:"black"}} data-animation="fadeInUp" data-delay=".4s">
-                        Gentle Wellness
-                        <br />
-                        Medi-Spa
+                        Our Mission Statement
+                        
                       </h2>
 
                       <p style={{color:"black"}} data-animation="fadeInUp" data-delay=".6s">
@@ -48,9 +48,18 @@ const Main = () => {
                       style={{
                         width: "450px",
                         height: "300px",
-                        float: "right",
+                        float:"left",
                       }}
                       src={Img10}
+                      alt="product"
+                    />
+                    <img
+                      style={{
+                        width: "450px",
+                        height: "300px",
+                        float:"right",
+                      }}
+                      src={Img11}
                       alt="product"
                     />
                   </div>

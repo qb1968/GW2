@@ -2,6 +2,8 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import Bredcrumb from '../../HomeMain/Bredcrumb'
 import BGImg from "../../../assets/img/bg/marble2.jpg";
+import IMG from "../../../assets/img/features/eyelash.jpeg"
+import IMG2 from "../../../assets/img/features/eyelash2.jpeg"
 
 const Main = () => {
     return (
@@ -72,129 +74,52 @@ const Main = () => {
                 <div className="service-detail">
                   <div className="content-box">
                     <h2 style={{color:"black"}}> Eyelash Extensions</h2>
+                    <h4>Types of sets:</h4>
                     <p>
-                      Emsculpt Neo is the only non-invasive technology that
-                      simultaneously uses radiofrequency and HIFEM+ energies to
-                      eliminate fat and build muscle. The end result is more fat
-                      reduction and muscle growth in less time than with any
-                      single gold-standard product.
+                    Classic Set: In this method, only a single extension is applied to each natural lash. This generally results in a more natural look.
                     </p>
-                    <h2 style={{color:"black"}}>What area of the body does Emsculpt Neo treat? </h2>
+                    <p>
+                    Hybrid Set: Hybrid eyelash extensions (hybrid lashes) are a 50/50 mixture of classic lashes and the handmade fanned, volume style lashes. For the more elevated and fuller look. 
 
-                    <ul>
-                      <li
-                        style={{
-                          color: "black",
-                          listStyle: "disc outside none",
-                        }}
-                      >
-                        Abdominal Area
-                      </li>
-                      <li
-                        style={{
-                          color: "black",
-                          listStyle: "disc outside none",
-                        }}
-                      >
-                        Buttocks
-                      </li>
-                      <li
-                        style={{
-                          color: "black",
-                          listStyle: "disc outside none",
-                        }}
-                      >
-                        Front and Back Thighs
-                      </li>
-                      <li
-                        style={{
-                          color: "black",
-                          listStyle: "disc outside none",
-                        }}
-                      >
-                        Outer and Inner Thighs
-                      </li>
-                      <li
-                        style={{
-                          color: "black",
-                          listStyle: "disc outside none",
-                        }}
-                      >
-                        Biceps and Triceps
-                      </li>
-                      <li
-                        style={{
-                          color: "black",
-                          listStyle: "disc outside none",
-                        }}
-                      >
-                        Calves
-                      </li>
-                    </ul>
+                    </p>
+                    <p>
+                    Volume Set: Volume lashes refer to super lightweight lashes that are crafted into a fan before being applied to individual natural lashes. This technique increases your lash count by as much as giving you a dramatic look with unrivaled fullness.* 
+                    </p>
+                    <p>
+                    Refills: A lash fill involves applying eyelash extensions on new hair growth (new lashes) to give your lash line a full and refreshed lease on life. Typically this happens every 2 weeks depending on hair growth and home maintenance. Fills are based on the percentage of lash extensions remaining. 
+Gentle Wellness 
+ does not fill other lash artist's sets, there will be a removal treatment added to 
+your appointment to prepare your lashes for a fresh new set.
+                    </p>
+                    <p>
+                    Removal of Lashes: Lashes are removed using a special eyelash remover that breaks down the bonds of the adhesive used to glue lashes to your natural ones. Within only a few seconds, the eyelash extensions will be easily removed by your lash tech. 
+                    </p>
+                   
                     <div className="two-column">
                       <div className="row">
                         <div className="image-column col-xl-6 col-lg-12 col-md-12">
                           <figure className="image">
                             <img
-                              src="assets/img/blog/inner_b1.jpg"
+                              src={IMG}
                               alt="blog"
+                              style={{width:275,height:275}}
                             />
                           </figure>
                         </div>
                         <div className="text-column col-xl-6 col-lg-12 col-md-12">
                           <figure className="image">
                             <img
-                              src="assets/img/blog/inner_b2.jpg"
+                              src={IMG2}
                               alt="blog"
+                              style={{width:275,height:275}}
                             />
                           </figure>
                         </div>
                       </div>
                     </div>
-                    <h3 style={{color:"black"}}>How long is the treatment</h3>
-                    <p>Standard treatment is 4 30-minute sessions</p>
-                    <h3 style={{color:"black"}}>Is EMSCULPT NEO painful?</h3>
-                    <p>
-                      EMSCULPT NEO treatments may feel intense but should never
-                      be painful. What happens to the fat that is eliminated by
-                      EMSCULPT NEO procedure? After the treatment, the fat cells
-                      die and are naturally eliminated from the body through
-                      metabolic processes.
-                    </p>
-                    <h3 style={{color:"black"}}> How is EMSCULPT NEO procedure performed?</h3>
-                    <p>
-                      EMSCULPT NEO procedure is simple and easy. There is no
-                      pre-preparation required for this procedure. You will lay
-                      down while the applicators are applied over the treatment
-                      area for 30 minutes. During the treatment you may feel
-                      intense yet tolerable heating sensation along with muscle
-                      contractions. Once the procedure is completed, you can
-                      immediately get back to your daily routine.
-                    </p>
-                    <div className="two-column">
-                      <div className="row">
-                        <div className="image-column col-xl-12 col-lg-12 col-md-12">
-                          <figure className="image">
-                            <img
-                              src="assets/img/blog/b_details01.jpg"
-                              alt="blog"
-                            />
-                          </figure>
-                        </div>
-                      </div>
-                    </div>
-                    <p>
-                      Phasellus hac phasellus consequat malesuada veler aliquam
-                      dictumst amet a phasellus lacinia integer curabitur duis.
-                      Urna taciti nisl torquent varius libero dui. Tempus magnis
-                      libero pulvinar purus pharetra justo sem curae duis eget
-                      tempus erat ornare. Consequat litora a blandit fermentum.
-                      Quam taciti site nascetur nunc litora quis tempor metus
-                      adipiscing ac quis sodales ultrices cubilia. Arcu in
-                      penatibus vestibulum diam. Curabitur platea quam fusce
-                      molestie venenatis platea ligula in aenean gravida dolor
-                      aptent nostra luctus rutrum morbi porttitor cursus
-                    </p>
+                    
+                    
+                    
                   </div>
                 </div>
               </div>
