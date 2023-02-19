@@ -7,7 +7,8 @@ import Team2 from "../../../assets/img/team/team2.png"
 import Team3 from "../../../assets/img/team/team3.png"
 import Team4 from "../../../assets/img/team/team4.png"
 import Team5 from "../../../assets/img/team/team5.jpg"
-import Team6 from "../../../assets/img/team/T6.png"
+import Team6 from "../../../assets/img/team/team6.png"
+import LOGO from "../../../assets/img/brand/gwms.jpg"
 
 const Main = () => {
   return (
@@ -26,7 +27,7 @@ const Main = () => {
               <div className="single-team mb-45">
                 <div className="team-thumb">
                   <div className="brd">
-                    <img src={Team3} />
+                    <img src={Team3} style={{height:450}}/>
                   </div>
                 </div>
                 <div className="team-info">
@@ -46,8 +47,20 @@ Spa as a means to enhance her patient’s natural beauty through non-invasive tr
             <div className="col-xl-4">
               <div className="single-team mb-45">
                 <div className="team-thumb">
+                 
+              <img 
+              src={LOGO}
+              
+              />
+              
+              </div>
+              </div>
+              </div>
+            <div className="col-xl-4">
+              <div className="single-team mb-45">
+                <div className="team-thumb">
                   <div className="brd">
-                    <img  src={Team6} />
+                    <img  src={Team6}  />
                   </div>
                 </div>
                 <div className="team-info">
@@ -97,22 +110,7 @@ excited to bring her skill set to Gentle Wellness.</p>
                 </div>
               </div>
             </div>
-            <div className="col-xl-4">
-              {/* <div className="single-team mb-45"> */}
-                <div className="team-thumb">
-                  <div className="brd">
-                    {/* <img src={Team5} alt="img" /> */}
-                  </div>
-                {/* </div>
-                <div className="team-info">
-                  <h4>
-                    <Link to="">Ostin Green</Link>
-                  </h4>
-                  <p>Worker</p> */}
-                 
-                </div>
-              </div>
-            {/* </div> */}
+           
             <div className="col-xl-4">
               <div className="single-team mb-45">
                 <div className="team-thumb">

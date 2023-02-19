@@ -44,24 +44,28 @@ const Main = () => {
  
                       </p>
                     </div>
+                   
                     <img
                       style={{
-                        width: "450px",
+                        width: "420px",
                         height: "300px",
-                        float:"left",
+                        float:"left"
                       }}
                       src={Img10}
                       alt="product"
                     />
+                    
+                   
                     <img
                       style={{
-                        width: "450px",
+                        width: "420px",
                         height: "300px",
-                        float:"right",
+                        float: "right"
                       }}
                       src={Img11}
                       alt="product"
                     />
+                    
                   </div>
                   <div className="col-lg-6 col-md-6 p-relative"></div>
                 </div>
