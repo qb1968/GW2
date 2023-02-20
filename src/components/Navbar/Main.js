@@ -57,12 +57,15 @@ const Main = () => {
                         </li>
                         <li className="has-sub">
                           <Link
-                            to="/service"
+                            to="#"
                             style={{ fontSize: 18, color: "black" }}
                           >
                             Services
                           </Link>
                           <ul>
+                            <li>
+                            <Link to="/service">Price List</Link>
+                            </li>
                             <li>
                               <Link to="/service-details"> Emsculpt Neo</Link>
                             </li>
@@ -151,8 +154,11 @@ const Main = () => {
                             </li>
 
                             <li className="has-sub">
-                              <Link to="/service">Services</Link>
+                              <Link to="#">Services</Link>
                               <ul >
+                                <li>
+                                  <Link to="/service">Price List</Link>
+                                </li>
                                 <li>
                                   <Link to="/service-details"> Emsculpt Neo</Link>
                                 </li>

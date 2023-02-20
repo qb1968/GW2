@@ -7,7 +7,7 @@ import Team2 from "../../../assets/img/team/team2.png"
 import Team3 from "../../../assets/img/team/team3.png"
 import Team4 from "../../../assets/img/team/team4.png"
 import Team5 from "../../../assets/img/team/team5.jpg"
-import Team6 from "../../../assets/img/team/team6.png"
+import Team6 from "../../../assets/img/team/melissa.jpg"
 import LOGO from "../../../assets/img/brand/gwms.jpg"
 
 const Main = () => {

@@ -43,7 +43,7 @@ const Main = () => {
                         <Link to="/about">About Us</Link>
                       </li>
                       <li>
-                        <Link to="/service">Services</Link>
+                        <Link to="/service">Price List</Link>
                       </li>
                       <li>
                         <Link to="/gallery"> Gallery</Link>
@@ -62,6 +62,9 @@ const Main = () => {
                   </div>
                   <div className="footer-link">
                     <ul>
+                      <li>
+                        <Link to="/service">Price List</Link>
+                      </li>
                       <li>
                         <Link to="service-details"> Emsculpt Neo</Link>
                       </li>
