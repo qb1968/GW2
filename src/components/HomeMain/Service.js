@@ -123,7 +123,7 @@ const Service = () => {
           </div>
           <div className="col-lg-4 col-md-12 col-sm-12 text-center d-none d-lg-block">
             <div className="sd-img">
-              <img src={Img} alt="img" style={{width:500,height:500,marginBottom:"100px"}} />
+              <img src={Img} alt="img" style={{width:400,height:400,marginBottom:"100px",marginRight:"1rem"}} />
             </div>
           </div>
           <div className="col-lg-4 col-md-6 col-sm-12">
