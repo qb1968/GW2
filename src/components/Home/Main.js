@@ -30,8 +30,8 @@ const Main = () => {
             >
               <div className="container">
                 <div className="row justify-content-center align-items-center">
-                  <div className="col-lg-8 col-md-8">
-                    <div className="slider-content s-slider-content mt-20">
+                  <div className="col-lg-10 col-md-10">
+                    <div className="slider-content s-slider-content mt-5">
                      
                       <h2 style={{color:"black"}} data-animation="fadeInUp" data-delay=".4s">
                         Our Mission Statement
