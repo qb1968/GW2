@@ -106,6 +106,12 @@ excited to bring her skill set to Gentle Wellness.</p>
                     <Link to="">Maddy</Link>
                   </h4>
                   <p>Eyelash Tech</p>
+                  <p>
+Melissa Cortes
+10:58 AM (3 hours ago)
+to me
+
+Maddy recently moved to Calvert County from California. She has been an eye lash technician for over a year of experience. Maddy’s passion for enhancing your own natural beauty has been her main focus when treating her clients. She spends her days off in the gym or practicing new techniques, she takes pride in her artistry and is excited to share it with you!</p>
                  
                 </div>
               </div>
