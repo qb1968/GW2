@@ -43,6 +43,17 @@ const Appointment = () => {
                         />
                       </div>
                     </div>
+                    <div className="col-lg-6">
+                      <div className="contact-field p-relative c-name mb-20">
+                        <input
+                          type="text"
+                          id="lastn"
+                          name="Last Name"
+                          placeholder="Last Name"
+                          required
+                        />
+                      </div>
+                    </div>
 
                     <div className="col-lg-6">
                       <div className="contact-field p-relative c-subject mb-20">
@@ -51,6 +62,17 @@ const Appointment = () => {
                           id="email"
                           name="Email"
                           placeholder="Email"
+                          required
+                        />
+                      </div>
+                    </div>
+                    <div className="col-lg-6">
+                      <div className="contact-field p-relative c-subject mb-20">
+                        <input
+                          type="text"
+                          id="phone"
+                          name="Phone#"
+                          placeholder="Phone#"
                           required
                         />
                       </div>
