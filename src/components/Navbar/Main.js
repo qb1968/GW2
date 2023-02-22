@@ -37,7 +37,7 @@ const Main = () => {
                         <li className="has-sub">
                           <Link
                             to="/"
-                            style={{ fontFamily:"fantasy",fontSize: 20, color: "black" }}
+                            style={{ fontFamily:"fantasy",fontSize: 20, color: "black",fontWeight:200  }}
                           >
                             Home
                           </Link>
@@ -45,7 +45,7 @@ const Main = () => {
                         <li className="has-sub">
                           <Link
                             to="/about"
-                            style={{ fontFamily:"fantasy",fontSize: 20, color: "black" }}
+                            style={{ fontFamily:"fantasy",fontSize: 20, color: "black",fontWeight:200 }}
                           >
                             About Us
                           </Link>
@@ -58,7 +58,7 @@ const Main = () => {
                         <li className="has-sub">
                           <Link
                             to="#"
-                            style={{fontFamily:"fantasy", fontSize: 20, color: "black" }}
+                            style={{fontFamily:"fantasy", fontSize: 20, color: "black",fontWeight:200  }}
                           >
                             Services
                           </Link>
@@ -89,7 +89,7 @@ const Main = () => {
                         <li className="has-sub">
                           <Link
                             to="/gallery"
-                            style={{fontFamily:"fantasy", fontSize: 20, color: "black" }}
+                            style={{fontFamily:"fantasy", fontSize: 20, color: "black",fontWeight:200  }}
                           >
                             Gallery
                           </Link>
@@ -98,7 +98,7 @@ const Main = () => {
                         <li>
                           <Link
                             to="/contact"
-                            style={{fontFamily:"fantasy", fontSize: 20, color: "black", }}
+                            style={{fontFamily:"fantasy", fontSize: 20, color: "black",fontWeight:200  }}
                           >
                             Contact
                           </Link>
