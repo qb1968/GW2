@@ -3,6 +3,7 @@ import React from "react";
 import Img from "../../assets/img/bg/open-box-img.png";
 
 const Appointment = () => {
+  
   return (
     <>
       <section
@@ -27,8 +28,7 @@ const Appointment = () => {
                   </p>
                 </div>
                 <form
-                  action="mail.php"
-                  method="post"
+                  action="https://submit-form.com/wJLWTI5r"
                   className="contact-form mt-30"
                 >
                   <div className="row">
@@ -37,7 +37,7 @@ const Appointment = () => {
                         <input
                           type="text"
                           id="firstn"
-                          name="firstn"
+                          name="First Name"
                           placeholder="First Name"
                           required
                         />
@@ -49,7 +49,7 @@ const Appointment = () => {
                         <input
                           type="text"
                           id="email"
-                          name="email"
+                          name="Email"
                           placeholder="Email"
                           required
                         />
@@ -59,16 +59,17 @@ const Appointment = () => {
                       <div className="contact-field p-relative c-subject mb-20">
                         <select
                           className="custom-select"
-                          id="inputGroupSelect04"
+                          name="Department"
+                          id="dept-select"
                           aria-label="Example select with button addon"
                         >
-                          <option> Department...</option>
-                          <option value="1">Emsulpt Neo</option>
-                          <option value="2">Emsella</option>
-                          <option value="3">Facial Treatments</option>
-                          <option value="4">Hair Removal</option>
-                          <option value="5">Eyelash Extensions</option>
-                          <option value="6">Microblading</option>
+                          <option value="">Department...</option>
+                          <option value="Emsulpt Neo">Emsulpt Neo</option>
+                          <option value="Emsella">Emsella</option>
+                          <option value="Facial Treatments">Facial Treatments</option>
+                          <option value="Hair Removal">Hair Removal</option>
+                          <option value="Eyelash Extensions">Eyelash Extensions</option>
+                          <option value="Microblading">Microblading</option>
                         </select>
                         <i className="fa fa-angle-down"></i>
                       </div>
@@ -78,7 +79,7 @@ const Appointment = () => {
                         <input
                           type="date"
                           id="subject"
-                          name="subject"
+                          name="Appointment Request"
                           placeholder="Subject"
                         />
                       </div>
@@ -98,6 +99,7 @@ const Appointment = () => {
                           className="btn ss-btn"
                           data-animation="fadeInRight"
                           data-delay=".8s"
+                          type="submit"
                         >
                           <span>Submit Now</span>
                         </button>

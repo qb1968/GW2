@@ -63,7 +63,7 @@ const Testimonial = () => {
                 <h5 style={{fontFamily:"monospace",color:"black"}}>Testimonials</h5>
                 
                 <p className="mt-15" style={{fontFamily:"LibreBaskerville",fontWeight:"800"}}>
-                  At Gentle Wellnes don't take our word for it. Listen to what our clients have to say.
+                  At Gentle Wellness don't take our word for it. Listen to what our clients have to say.
                 </p>
               </div>
             </div>
