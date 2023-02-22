@@ -26,9 +26,9 @@ const About = () => {
               >
                 <div className="about-title second-title pb-25">
                   
-                  <h2>Building your natural beauty</h2>
+                  <h2 style={{fontFamily:"Alex Brush"}}>Building your natural beauty</h2>
                 </div>
-                <p>
+                <p style={{fontFamily:"LibreBaskerville"}}>
                 Gentle Wellness was founded by Dr. Cynthia Sclater D.M.D in 2022 with our community in mind. With 18+ years serving our community through Gentle Family Dentistry Dr. Sclater realized we can do more. Our team is dedicated to helping our patients enhance their natural beauty by providing nonsurgical, rejuvenating treatments and services. We help each patient to achieve their unique aesthetic and wellness goals without permanently altering their appearances with cosmetic surgery.
 
  

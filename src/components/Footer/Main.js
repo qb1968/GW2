@@ -23,7 +23,7 @@ const Main = () => {
                     <img src={Img1} alt="logo" />
                   </div>
                   <div className="footer-link">
-                    <p style={{ color: "black" }}>
+                    <p style={{fontFamily:"LibreBaskerville", color: "black",fontWeight:"bold" }}>
                     At Gentle Wellness our mission is to provide a world class spa experience while providing personalized services to each client and enhance their natural beauty. We strive to build rewarding relationships with our clients and community, through knowledge, wellness, and superior service.
                     </p>
                   </div>
@@ -32,24 +32,24 @@ const Main = () => {
               <div className="col-xl-2 col-lg-2 col-sm-6">
                 <div className="footer-widget mb-30">
                   <div className="f-widget-title">
-                    <h2>Other Links</h2>
+                    <h2 style={{fontFamily:"Roboto,serif"}}>Other Links</h2>
                   </div>
                   <div className="footer-link">
                     <ul>
                       <li>
-                        <Link to="/"> Home</Link>
+                        <Link to="/" style={{fontSize:"20px",fontFamily:"fantasy"}}> Home</Link>
                       </li>
                       <li>
-                        <Link to="/about">About Us</Link>
+                        <Link to="/about" style={{fontSize:"20px",fontFamily:"fantasy"}}>About Us</Link>
                       </li>
                       <li>
-                        <Link to="/service">Price List</Link>
+                        <Link to="/service" style={{fontSize:"20px",fontFamily:"fantasy"}}>Price List</Link>
                       </li>
                       <li>
-                        <Link to="/gallery"> Gallery</Link>
+                        <Link to="/gallery" style={{fontSize:"20px",fontFamily:"fantasy"}}> Gallery</Link>
                       </li>
                       <li>
-                        <Link to="/team">Our Team</Link>
+                        <Link to="/team" style={{fontSize:"20px",fontFamily:"fantasy"}}>Our Team</Link>
                       </li>
                     </ul>
                   </div>
@@ -58,30 +58,30 @@ const Main = () => {
               <div className="col-xl-2 col-lg-2 col-sm-6">
                 <div className="footer-widget mb-30">
                   <div className="f-widget-title">
-                    <h2>Our Services</h2>
+                    <h2 style={{fontFamily:"Roboto,serif"}}>Our Services</h2>
                   </div>
                   <div className="footer-link">
                     <ul>
                       <li>
-                        <Link to="/service">Price List</Link>
+                        <Link to="/service" style={{fontSize:"20px",fontFamily:"fantasy"}}>Price List</Link>
                       </li>
                       <li>
-                        <Link to="service-details"> Emsculpt Neo</Link>
+                        <Link to="service-details" style={{fontSize:"20px",fontFamily:"fantasy"}}> Emsculpt Neo</Link>
                       </li>
                       <li>
-                        <Link to="service-details2">Emsella</Link>
+                        <Link to="service-details2" style={{fontSize:"20px",fontFamily:"fantasy"}}>Emsella</Link>
                       </li>
                       <li>
-                        <Link to="service-details3"> Facial Treatments</Link>
+                        <Link to="service-details3" style={{fontSize:"20px",fontFamily:"fantasy"}}> Facial Treatments</Link>
                       </li>
                       <li>
-                        <Link to="service-details4">Hair Removal</Link>
+                        <Link to="service-details4" style={{fontSize:"20px",fontFamily:"fantasy"}}>Hair Removal</Link>
                       </li>
                       <li>
-                        <Link to="service-details5">Eyelash Extensions</Link>
+                        <Link to="service-details5" style={{fontSize:"20px",fontFamily:"fantasy"}}>Eyelash Extensions</Link>
                       </li>
                       <li>
-                        <Link to="service-details6">Microblading</Link>
+                        <Link to="service-details6" style={{fontSize:"20px",fontFamily:"fantasy"}}>Microblading</Link>
                       </li>
                     </ul>
                   </div>
@@ -110,7 +110,7 @@ const Main = () => {
               style={{ backgroundColor: "#58846d" }}
             >
               <div className="col-lg-6">
-                <div className="copy-text" style={{ color: "black" }}>
+                <div className="copy-text" style={{ fontWeight:"bold",color: "black" }}>
                   Copyright &copy; 2023Jonathan Allison. All rights reserved.
                 </div>
               </div>

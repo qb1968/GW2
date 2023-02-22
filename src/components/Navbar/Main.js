@@ -25,8 +25,8 @@ const Main = () => {
                 <div className="col-xl-4 col-lg-4">
                   <div style={{marginTop:"10px",marginBottom:"10px",height:"70px",width:"315px",padding:"5px",alignContent:"center",backgroundImage:`url(${BG2})`}} className="logo">
                     <Link to="/">
-                      <h4 style={{fontFamily:"Labrada,serif",fontWeight:"bold",alignItems:"center",textAlign:"center",color:"#58846D",fontSize:"25px",textDecoration:"none"}}>Gentle Wellness</h4>
-                      <p style={{fontFamily:"Labrada,serif",fontWeight:"bold",alignItems:"center",textAlign:"center",color:"black",fontSize:"20px",textDecoration:"none"}}>Medi-Spa</p>
+                      <h4 style={{fontFamily:"Alex Brush, cursive",fontWeight:"bold",alignItems:"center",textAlign:"center",color:"#58846D",fontSize:"30px",textDecoration:"none"}}>Gentle Wellness</h4>
+                      <h5 style={{fontFamily:"LibreBaskerville",fontWeight:"bold",alignItems:"center",textAlign:"center",color:"black",fontSize:"15px",textDecoration:"none"}}>Medi-Spa</h5>
                     </Link>     
                   </div>
                 </div>
@@ -37,7 +37,7 @@ const Main = () => {
                         <li className="has-sub">
                           <Link
                             to="/"
-                            style={{ fontSize: 18, color: "black" }}
+                            style={{ fontFamily:"fantasy",fontSize: 20, color: "black" }}
                           >
                             Home
                           </Link>
@@ -45,7 +45,7 @@ const Main = () => {
                         <li className="has-sub">
                           <Link
                             to="/about"
-                            style={{ fontSize: 18, color: "black" }}
+                            style={{ fontFamily:"fantasy",fontSize: 20, color: "black" }}
                           >
                             About Us
                           </Link>
@@ -58,7 +58,7 @@ const Main = () => {
                         <li className="has-sub">
                           <Link
                             to="#"
-                            style={{ fontSize: 18, color: "black" }}
+                            style={{fontFamily:"fantasy", fontSize: 20, color: "black" }}
                           >
                             Services
                           </Link>
@@ -89,7 +89,7 @@ const Main = () => {
                         <li className="has-sub">
                           <Link
                             to="/gallery"
-                            style={{ fontSize: 18, color: "black" }}
+                            style={{fontFamily:"fantasy", fontSize: 20, color: "black" }}
                           >
                             Gallery
                           </Link>
@@ -98,7 +98,7 @@ const Main = () => {
                         <li>
                           <Link
                             to="/contact"
-                            style={{ fontSize: 18, color: "black", }}
+                            style={{fontFamily:"fantasy", fontSize: 20, color: "black", }}
                           >
                             Contact
                           </Link>

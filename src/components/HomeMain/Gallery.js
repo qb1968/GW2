@@ -230,7 +230,7 @@ const Gallery = () => {
         className="team-area fix p-relative pt-120 pb-90"
         style={{ backgroundImage: `url(${BGImg})` }}
       >
-        <h1 style={{ textAlign: "center", color: "black" }}>Gallery</h1>
+        <h1 style={{fontSize:"50px",fontFamily:"Alex Brush", textAlign: "center", color: "black" }}>Gallery</h1>
         <div className="container">
           
           <div className="row">

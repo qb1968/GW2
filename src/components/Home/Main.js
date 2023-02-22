@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import React from "react";
-import BGImg from "../../assets/img/slider/slider_bg.png";
+import BGImg2 from "../../assets/img/bg/marble2.jpg";
 import About from "../HomeMain/About";
 import Appointment from "../HomeMain/Appointment";
 import Blog from "../HomeMain/Blog";
@@ -28,17 +28,17 @@ const Main = () => {
                 backgroundColor: "#58846d",
               }}
             >
-              <div className="container">
+              <div className="container" >
                 <div className="row justify-content-center align-items-center">
                   <div className="col-lg-10 col-md-10">
                     <div className="slider-content s-slider-content mt-5">
                      
-                      <h2 style={{color:"black"}} data-animation="fadeInUp" data-delay=".4s">
-                        Our Mission Statement
+                      <h2 style={{fontFamily:"Alex Brush",color:"black",textAlign:"center"}} data-animation="fadeInUp" data-delay=".4s">
+                        Our Mission 
                         
                       </h2>
 
-                      <p style={{color:"black"}} data-animation="fadeInUp" data-delay=".6s">
+                      <p style={{fontSize:"20px",fontFamily:"LibreBaskerville",fontWeight:"bold",color:"black"}} data-animation="fadeInUp" data-delay=".6s">
                       At Gentle Wellness our mission is to provide a world class spa experience while providing personalized services to each client and enhance their natural beauty. We strive to build rewarding relationships with our clients and community, through knowledge, wellness, and superior service.
 
  
@@ -47,27 +47,46 @@ const Main = () => {
                    
                     <img
                       style={{
-                        width: "420px",
-                        height: "300px",
-                        float:"left"
+                        marginTop:"20px",
+                        width: "520px",
+                        height: "400px",
+                        float:"left",
+                        borderStyle:"solid",
+                        borderWidth:"25px",
+                        borderImageSource:`url(${BGImg2})` ,
+                        borderImageSlice: 60,
+                        borderImageWidth:20,
+                        borderImageRepeat:"round"
+                       
+                       
+                        
                       }}
                       src={Img10}
                       alt="product"
                     />
                     
-                   
+                  
                     <img
                       style={{
-                        width: "420px",
-                        height: "300px",
-                        float: "right"
+                        marginTop:"20px",
+                        width: "520px",
+                        height: "400px",
+                        float: "right",
+                        borderStyle:"solid",
+                        borderWidth:"25px",
+                        borderImageSource:`url(${BGImg2})` ,
+                        borderImageSlice: 60,
+                        borderImageWidth:20,
+                        borderImageRepeat:"round",
+                        marginBottom:"10px"
+                        
                       }}
                       src={Img11}
                       alt="product"
                     />
                     
                   </div>
-                  <div className="col-lg-6 col-md-6 p-relative"></div>
+                  
                 </div>
               </div>
             </div>
