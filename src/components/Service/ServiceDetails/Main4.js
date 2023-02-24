@@ -2,6 +2,8 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import Bredcrumb from '../../HomeMain/Bredcrumb'
 import BGImg from "../../../assets/img/bg/marble2.jpg";
+import Image from "../../../assets/img/features/wax.jpeg"
+import Image2 from "../../../assets/img/features/wax2.jpeg"
 
 const Main = () => {
     return (
@@ -81,7 +83,7 @@ const Main = () => {
                         <div className="image-column col-xl-6 col-lg-12 col-md-12">
                           <figure className="image">
                             <img
-                              src="assets/img/blog/inner_b1.jpg"
+                              src={Image}
                               alt="blog"
                             />
                           </figure>
@@ -89,7 +91,7 @@ const Main = () => {
                         <div className="text-column col-xl-6 col-lg-12 col-md-12">
                           <figure className="image">
                             <img
-                              src="assets/img/blog/inner_b2.jpg"
+                              src={Image2}
                               alt="blog"
                             />
                           </figure>
