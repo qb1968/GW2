@@ -1,15 +1,12 @@
 import { Link } from "react-router-dom";
 import React, { useState } from "react";
-import Img1 from "../../assets/img/logo/Rectangle.png";
-import BGImg from "../../assets/img/bg/marblebg.jpg"
-import BG2 from "../../assets/img/bg/marble2.jpg"
+
+import BG2 from "../../assets/img/bg/marble2.jpg";
 
 const Main = () => {
   const [mobile, setmobile] = useState(false);
-  const [show, setshow] = useState(false);
+
   const [show1, setshow1] = useState(false);
-  const [show2, setshow2] = useState(false);
-  const [show3, setshow3] = useState(false);
 
   return (
     <>
@@ -17,17 +14,52 @@ const Main = () => {
         <div
           id="header-sticky"
           className="menu-area"
-           style={{backgroundColor:"#58846D"}}
+          style={{ backgroundColor: "#58846D" }}
         >
           <div className="container" style={{}}>
             <div className="second-menu">
               <div className="row align-items-center">
                 <div className="col-xl-4 col-lg-4">
-                  <div style={{marginTop:"10px",marginBottom:"10px",height:"70px",width:"315px",padding:"5px",alignContent:"center",backgroundImage:`url(${BG2})`}} className="logo">
+                  <div
+                    style={{
+                      marginTop: "10px",
+                      marginBottom: "10px",
+                      height: "70px",
+                      width: "315px",
+                      padding: "5px",
+                      alignContent: "center",
+                      backgroundImage: `url(${BG2})`,
+                    }}
+                    className="logo"
+                  >
                     <Link to="/">
-                      <h4 style={{fontFamily:"Alex Brush, cursive",fontWeight:"bold",alignItems:"center",textAlign:"center",color:"#58846D",fontSize:"30px",textDecoration:"none"}}>Gentle Wellness</h4>
-                      <h5 style={{fontFamily:"LibreBaskerville",fontWeight:"bold",alignItems:"center",textAlign:"center",color:"black",fontSize:"15px",textDecoration:"none"}}>Medi-Spa</h5>
-                    </Link>     
+                      <h4
+                        style={{
+                          fontFamily: "Alex Brush, cursive",
+                          fontWeight: "bold",
+                          alignItems: "center",
+                          textAlign: "center",
+                          color: "#58846D",
+                          fontSize: "30px",
+                          textDecoration: "none",
+                        }}
+                      >
+                        Gentle Wellness
+                      </h4>
+                      <h5
+                        style={{
+                          fontFamily: "LibreBaskerville",
+                          fontWeight: "bold",
+                          alignItems: "center",
+                          textAlign: "center",
+                          color: "black",
+                          fontSize: "15px",
+                          textDecoration: "none",
+                        }}
+                      >
+                        Medi-Spa
+                      </h5>
+                    </Link>
                   </div>
                 </div>
                 <div className="col-xl-7 col-lg7">
@@ -37,7 +69,12 @@ const Main = () => {
                         <li className="has-sub">
                           <Link
                             to="/"
-                            style={{ fontFamily:"fantasy",fontSize: 20, color: "black",fontWeight:200  }}
+                            style={{
+                              fontFamily: "fantasy",
+                              fontSize: 20,
+                              color: "black",
+                              fontWeight: 200,
+                            }}
                           >
                             Home
                           </Link>
@@ -45,7 +82,12 @@ const Main = () => {
                         <li className="has-sub">
                           <Link
                             to="/about"
-                            style={{ fontFamily:"fantasy",fontSize: 20, color: "black",fontWeight:200 }}
+                            style={{
+                              fontFamily: "fantasy",
+                              fontSize: 20,
+                              color: "black",
+                              fontWeight: 200,
+                            }}
                           >
                             About Us
                           </Link>
@@ -58,13 +100,18 @@ const Main = () => {
                         <li className="has-sub">
                           <Link
                             to="#"
-                            style={{fontFamily:"fantasy", fontSize: 20, color: "black",fontWeight:200  }}
+                            style={{
+                              fontFamily: "fantasy",
+                              fontSize: 20,
+                              color: "black",
+                              fontWeight: 200,
+                            }}
                           >
                             Services
                           </Link>
                           <ul>
                             <li>
-                            <Link to="/service">Price List</Link>
+                              <Link to="/service">Price List</Link>
                             </li>
                             <li>
                               <Link to="/service-details"> Emsculpt Neo</Link>
@@ -73,13 +120,18 @@ const Main = () => {
                               <Link to="/service-details2">Emsella</Link>
                             </li>
                             <li>
-                              <Link to="/service-details3"> Facial Treatments</Link>
+                              <Link to="/service-details3">
+                                {" "}
+                                Facial Treatments
+                              </Link>
                             </li>
                             <li>
                               <Link to="/service-details4">Hair Removal</Link>
                             </li>
                             <li>
-                              <Link to="/service-details5">Eyelash Extensions</Link>
+                              <Link to="/service-details5">
+                                Eyelash Extensions
+                              </Link>
                             </li>
                             <li>
                               <Link to="/service-details6">Microblading</Link>
@@ -89,16 +141,26 @@ const Main = () => {
                         <li className="has-sub">
                           <Link
                             to="/gallery"
-                            style={{fontFamily:"fantasy", fontSize: 20, color: "black",fontWeight:200  }}
+                            style={{
+                              fontFamily: "fantasy",
+                              fontSize: 20,
+                              color: "black",
+                              fontWeight: 200,
+                            }}
                           >
                             Gallery
                           </Link>
-                          </li>
+                        </li>
 
                         <li>
                           <Link
                             to="/contact"
-                            style={{fontFamily:"fantasy", fontSize: 20, color: "black",fontWeight:200  }}
+                            style={{
+                              fontFamily: "fantasy",
+                              fontSize: 20,
+                              color: "black",
+                              fontWeight: 200,
+                            }}
                           >
                             Contact
                           </Link>
@@ -142,7 +204,6 @@ const Main = () => {
                           <ul style={{ display: mobile ? "block" : "none" }}>
                             <li className="has-sub">
                               <Link to="/">Home</Link>
-                              
                             </li>
                             <li className="has-sub">
                               <Link to="/about/">About Us</Link>
@@ -155,27 +216,39 @@ const Main = () => {
 
                             <li className="has-sub">
                               <Link to="#">Services</Link>
-                              <ul >
+                              <ul>
                                 <li>
                                   <Link to="/service">Price List</Link>
                                 </li>
                                 <li>
-                                  <Link to="/service-details"> Emsculpt Neo</Link>
+                                  <Link to="/service-details">
+                                    {" "}
+                                    Emsculpt Neo
+                                  </Link>
                                 </li>
                                 <li>
                                   <Link to="/service-details2">Emsella</Link>
                                 </li>
                                 <li>
-                                  <Link to="/service-details3"> Facial Treatments</Link>
+                                  <Link to="/service-details3">
+                                    {" "}
+                                    Facial Treatments
+                                  </Link>
                                 </li>
                                 <li>
-                                  <Link to="/service-details4">Hair Removal</Link>
+                                  <Link to="/service-details4">
+                                    Hair Removal
+                                  </Link>
                                 </li>
                                 <li>
-                                  <Link to="/service-details5">Eyelash Extensions</Link>
+                                  <Link to="/service-details5">
+                                    Eyelash Extensions
+                                  </Link>
                                 </li>
                                 <li>
-                                  <Link to="/service-details6">Microblading</Link>
+                                  <Link to="/service-details6">
+                                    Microblading
+                                  </Link>
                                 </li>
                               </ul>
                               <Link
@@ -193,34 +266,8 @@ const Main = () => {
                             </li>
                             <li className="has-sub">
                               <Link to="/gallery">Gallery</Link>
-                              
-                              {/* <Link
-                                to="/gallery"
-                                className={`mean-expand ${
-                                  show2 && "mean-clicked"
-                                }`}
-                                onClick={() =>
-                                  setshow2(show2 === true ? false : true)
-                                }
-                                style={{ fontSize: "18px" }}
-                              >
-                                +
-                              </Link> */}
                             </li>
-                            <li className="has-sub">
-                              {/* <Link
-                                to="/contact"
-                                className={`mean-expand ${
-                                  show3 && "mean-clicked"
-                                }`}
-                                onClick={() =>
-                                  setshow3(show3 === true ? false : true)
-                                }
-                                style={{ fontSize: "18px" }}
-                              >
-                                +
-                              </Link> */}
-                            </li>
+                            <li className="has-sub"></li>
                             <li className="mean-last">
                               <Link to="/contact">Contact</Link>
                             </li>
