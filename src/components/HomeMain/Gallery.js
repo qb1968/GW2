@@ -31,39 +31,39 @@ const Gallery = () => {
           <div className="row">
             <div className="col-lg-4">
               <figure>
-                <img src={Img1} />
+                <img src={Img1} alt=""/>
               </figure>
             </div>
 
             <div className="col-lg-4">
               <figure>
-                <img src={Img2} />
+                <img src={Img2} alt=""/>
               </figure>
             </div>
             <div className="col-lg-4">
               <figure>
-                <img src={Img4} />
+                <img src={Img4} alt=""/>
               </figure>
             </div>
             <div className="col-lg-6">
               <figure>
-                <img src={Img3} />
+                <img src={Img3} alt=""/>
               </figure>
             </div>
 
             <div className="col-lg-6">
               <figure>
-                <img src={Img5} style={{ height: 500, width: 600 }} />
+                <img src={Img5} style={{ height: 500, width: 600 }} alt=""/>
               </figure>
             </div>
             <div className="col-lg-3">
-              <img src={Img8} style={{ height: 300 }} />
+              <img src={Img8} style={{ height: 300 }} alt=""/>
             </div>
             <div className="col-lg-4">
-              <img src={Img6} />
+              <img src={Img6} alt=""/>
             </div>
             <div className="col-lg-4">
-              <img src={Img7} />
+              <img src={Img7} alt=""/>
             </div>
           </div>
         </div>
