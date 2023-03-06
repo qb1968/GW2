@@ -47,7 +47,7 @@ const Main = () => {
                         data-animation="fadeInUp"
                         data-delay=".6s"
                       >
-                        At Gentle Wellness our mission is to provide a world
+                        At Gentle Wellness our mission is to provides a world
                         class spa experience while providing personalized
                         services to each client and enhance their natural
                         beauty. We strive to build rewarding relationships with
