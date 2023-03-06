@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import BGImg from "../../assets/img/bg/marble2.jpg";
 
-import Img1 from "../../assets/img/gallery/20230301_143044.jpg";
+import Img1 from "../../assets/img/gallery/Brows 2.png";
 import Img2 from "../../assets/img/gallery/Brows before and after.png";
 import Img3 from "../../assets/img/gallery/Daytime-Control-2.jpg";
 import Img4 from "../../assets/img/gallery/Facetune..JPEG";
